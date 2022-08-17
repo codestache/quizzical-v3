@@ -14,34 +14,11 @@ const StartQuizContainer = styled.div`
       padding: 3px 0;
     }
 
-    span:nth-child(1) {
-      color: var(--dark-blue);
+    span {
+      color: var(--logo-teal);
       font-size: 3rem;
     }
-    span:nth-child(2) {
-      color: var(--dark-orange);
-    }
-    span:nth-child(3) {
-      color: var(--purple);
-    }
-    span:nth-child(4) {
-      color: var(--dark-green);
-    }
-    span:nth-child(5) {
-      color: var(--dark-blue);
-    }
-    span:nth-child(6) {
-      color: var(--dark-orange);
-    }
-    span:nth-child(7) {
-      color: var(--purple);
-    }
-    span:nth-child(8) {
-      color: var(--dark-green);
-    }
-    span:nth-child(9) {
-      color: var(--dark-blue);
-    }
+
   }
 `;
 
@@ -157,15 +134,7 @@ const StartQuizScreen = ({
       <StartQuizContainer>
         <header>
           <h1>
-            <span>Q</span>
-            <span>u</span>
-            <span>i</span>
-            <span>z</span>
-            <span>z</span>
-            <span>i</span>
-            <span>c</span>
-            <span>a</span>
-            <span>l</span>
+            <span>Q</span>uizzical
           </h1>
           <p>
             This is a knowledge quiz app. Pick your answers from the options

@@ -17,34 +17,11 @@ const NavContainer = styled.div`
     cursor: pointer;
   }
 
-  span:nth-child(1) {
-    color: var(--dark-blue);
+  span {
+    color: var(--logo-teal);
     font-size: 1.6rem;
   }
-  span:nth-child(2) {
-    color: var(--dark-orange);
-  }
-  span:nth-child(3) {
-    color: var(--purple);
-  }
-  span:nth-child(4) {
-    color: var(--dark-green);
-  }
-  span:nth-child(5) {
-    color: var(--dark-blue);
-  }
-  span:nth-child(6) {
-    color: var(--dark-orange);
-  }
-  span:nth-child(7) {
-    color: var(--purple);
-  }
-  span:nth-child(8) {
-    color: var(--dark-green);
-  }
-  span:nth-child(9) {
-    color: var(--dark-blue);
-  }
+
 `;
 
 const Navbar = ({ setQuizStarted }) => {
@@ -52,15 +29,7 @@ const Navbar = ({ setQuizStarted }) => {
     <>
       <NavContainer>
         <h3 onClick={() => setQuizStarted(false)}>
-          <span>Q</span>
-          <span>u</span>
-          <span>i</span>
-          <span>z</span>
-          <span>z</span>
-          <span>i</span>
-          <span>c</span>
-          <span>a</span>
-          <span>l</span>
+          <span>Q</span>uizzical
         </h3>
         <Toggle />
       </NavContainer>

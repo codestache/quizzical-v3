@@ -15,7 +15,7 @@ const LoadingContainer = styled.div`
 const Loading = () => {
   return (
     <LoadingContainer>
-      <ReactLoading type="spinningBubbles" color="var(--loader-color)" />
+      <ReactLoading type="spinningBubbles" color="var(--loader-teal)" />
       <p>Loading data...</p>
     </LoadingContainer>
   );

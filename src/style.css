@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap');
 
 :root {
-  --loader-color: #00828b;
+  --logo-teal: #00828b;
+  --loader-teal: #00828b;
   --primary-dark-green: #044c52;
   --primary-hover: #00818a;
   --secondary-dark-blue: #19398f;
@@ -10,10 +11,6 @@
   --disabled-gray: #555555;
   --correct-green: #4E9F3D;
   --incorrect-red: #e03838;
-  --dark-blue: rgb(0, 130, 216);
-  --dark-orange: rgb(223, 109, 15);
-  --purple: rgb(200, 12, 218);
-  --dark-green: rgb(8, 185, 97);
 }
 
 *,
