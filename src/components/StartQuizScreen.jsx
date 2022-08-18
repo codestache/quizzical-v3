@@ -7,7 +7,7 @@ const StartQuizContainer = styled.div`
   border: px solid;
 
   header {
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
 
     p {
@@ -23,7 +23,7 @@ const StartQuizContainer = styled.div`
 `;
 
 const QuizFormContainer = styled.div`
-  padding: 10px 0;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;

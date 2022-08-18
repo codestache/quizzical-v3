@@ -4,7 +4,7 @@ import Toggle from './Toggle';
 const NavContainer = styled.div`
   display: flex;
   margin-right: auto;
-  padding: 16px 0;
+  padding: 10px 0;
   border-bottom: 1px solid ${({ theme }) => theme.borderColor};
 
   h3 {
