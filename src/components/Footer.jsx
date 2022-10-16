@@ -9,7 +9,7 @@ const FooterContainer = styled.div`
 const Footer = () => {
   return (
     <FooterContainer>
-      <p>The Stax dev ©2022</p>
+      <p>Codestache ©2022</p>
     </FooterContainer>
   );
 };

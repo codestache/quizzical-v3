@@ -4,7 +4,6 @@ import sanitizeHtml from 'sanitize-html';
 import Answer from 'components/Answer';
 
 const InitContainer = styled.div`
-  border: px solid;
   width: 80%;
   margin: 1.5rem 0;
 
@@ -18,14 +17,12 @@ const InitContainer = styled.div`
 
   h2,
   h3 {
-    border: px solid;
     text-align: center;
     margin-bottom: 1.5em;
   }
 `;
 
 const AnswersContainer = styled.div`
-  border: px solid;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
@@ -37,7 +34,6 @@ const AnswersContainer = styled.div`
 `;
 
 const NextContainer = styled.div`
-  border: px solid;
   display: flex;
   align-items: center;
   justify-content: center;
