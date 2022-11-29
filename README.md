@@ -2,7 +2,7 @@
 Open Trivia Quiz
 <h3>Overview</h3>
 
-> This is a trivia quiz app. It asks questions about computer information and you just have to pick you answers from the options provided. It uses its data from [Open Trivia Database](https://opentdb.com/) - an open source database
+> This is a trivia quiz app. It asks questions about what category you have selected and you just have to pick your answers from the options provided. It uses its data from [Open Trivia Database](https://opentdb.com/) - an open source database
 
 [View it live from your browser.](https://mrjaysonwong.github.io/quizzical-v3/) Deployed with github pages
 <br>
